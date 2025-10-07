@@ -4,3 +4,15 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.dropdown a{
+    display: block;
+
+}
+.dropdown:hover{
+
+}
+.dropdown .content{
+    background-color: rgb(143, 31, 31);
+    position: absolute;
+    box-shadow: 3px 3px 5px rgb(99, 13, 13);
+}
