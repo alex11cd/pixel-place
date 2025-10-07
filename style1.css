@@ -1,0 +1,6 @@
+.dropdown button{
+    background-color: rgb(143, 31, 31);
+    color: rgb(194, 50, 50);
+    border-radius: 5px;
+    cursor: pointer;
+}
