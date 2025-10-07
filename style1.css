@@ -9,10 +9,11 @@
 
 }
 .dropdown:hover{
-
+    display: block;
 }
 .dropdown .content{
+    display: none;
     background-color: rgb(143, 31, 31);
     position: absolute;
-    box-shadow: 3px 3px 5px rgb(99, 13, 13);
+    box-shadow: 3px 3px 5px rgb(44, 2, 2);
 }
