@@ -8,4 +8,16 @@
 .dropdown a{
     display: block;
     color: rgb(176, 139, 139);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    background-color: rgb(107, 2, 2);
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 4px 4px 3px rgb(57, 57, 57);
+}
+.dropdown:hover .content{
+    display: block;
 }
