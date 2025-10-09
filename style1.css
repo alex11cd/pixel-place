@@ -6,8 +6,11 @@
     color: rgb(181, 109, 109);
     padding: 10px 15px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    align-self: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 .dropdown a{
     display: block;
