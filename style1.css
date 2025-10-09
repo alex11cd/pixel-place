@@ -24,6 +24,8 @@
     position: absolute;
     min-width: 100px;
     box-shadow: 4px 4px 3px rgb(63, 63, 63);
+    top: 10px;
+    right: 10px;
 }
 .dropdown:hover .content{
     display: block;
