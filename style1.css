@@ -24,3 +24,6 @@
 .dropdown:hover button{
     background-color: rgb(55, 8, 8);
 }
+.dropdown a:hover{
+    background-color: rgb(132, 104, 104);
+}
