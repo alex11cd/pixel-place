@@ -21,3 +21,6 @@
 .dropdown:hover .content{
     display: block;
 }
+.dropdown:hover button{
+    background-color: rgb(55, 8, 8);
+}
