@@ -26,6 +26,7 @@
     box-shadow: 4px 4px 3px rgb(63, 63, 63);
     top: 10px;
     right: 10px;
+    border-radius: 5px;
 }
 .dropdown:hover .content{
     display: block;
