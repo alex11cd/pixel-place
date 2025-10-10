@@ -1,5 +1,5 @@
 .dropdown button{
-    box-shadow: 2px 2px 3px rgb(104, 104, 104);
+    box-shadow: 2px 2px 3px rgb(95, 54, 54);
     background-color: rgb(107, 2, 2);
     color: rgb(181, 109, 109);
     padding: 10px 15px;
@@ -7,8 +7,6 @@
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    right: 10px;
 }
 .dropdown a{
     display: block;
@@ -21,9 +19,7 @@
     background-color: rgb(107, 2, 2);
     position: absolute;
     min-width: 100px;
-    box-shadow: 4px 4px 3px rgb(63, 63, 63);
-    top: 7px;
-    right: 10px;
+    box-shadow: 4px 4px 3px rgb(101, 55, 55);
     border-radius: 5px;
 }
 .dropdown:hover .content{
@@ -34,4 +30,19 @@
 }
 .dropdown a:hover{
     background-color: rgb(79, 0, 0);
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin-right: 20px;
+}
+p{
+    text-align: center;
+}
+header{
+    background-color: rgb(191, 71, 71);
+}
+body{
+    background-color: rgb(199, 116, 116);
 }
