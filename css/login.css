@@ -1,0 +1,123 @@
+.navbar ul{
+    background-color: rgb(174, 58, 58);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+.navbar a{
+    color: rgb(208, 153, 153);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(113, 38, 38);
+}
+.navbar li{
+    float: left;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/photos/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgb(91, 21, 21);
+    color: rgb(249, 153, 153);
+    border-radius: 20px;
+    padding: 30px 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 8px 10px rgb(0,0,0);
+
+}
+.wrapper h3{
+    text-align: center;
+    font-size: 35.7px;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(146, 44, 44);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(249, 153, 153);
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: rgb(249, 153, 153);
+}
+.input-box i{
+    right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: rgb(249, 153, 153);
+    margin: 3px;
+}
+.remember-forgot a{
+    color: rgb(249, 153, 153);
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: rgb(141, 51, 51);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 7px 5px 10px rgb(0,0,0);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(208, 153, 153);
+    font-weight: 600;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color:rgb(249, 153, 153);
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
