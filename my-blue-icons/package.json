@@ -1,0 +1,16 @@
+{
+  "name": "Classic-icons",
+  "displayName": "Classic REAL iconThemes",
+  "description": "Blue and yellow icons for CSS and JS files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "iconThemes": [
+    {
+      "id": "Classic-icons",
+      "label": "Classic REAL iconThemes",
+      "path": "./icon-theme.json"
+    }
+  ]
+}
