@@ -16,7 +16,7 @@ html{
 body{
     display: flex;
     min-height: 100vh;
-    background: url(/pictures/bg.png);
+    background: url(bg.png);
     background-size: cover;
     background-position: right;
     justify-content: center;
@@ -34,6 +34,20 @@ body{
     padding: 30px 40px;
     backdrop-filter: blur(7px);
     box-shadow: 10px 8px 10px rgb(0,0,0);
+    width: 420px;
+}
+form button{
+    width: 100%;
+    height: 45px;
+    background: rgb(141, 51, 51);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 7px 5px 10px rgb(0,0,0);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(208, 153, 153);
+    font-weight: 600;
 }
 h1{
     font-size: 3rem;
@@ -47,7 +61,8 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    margin: 0;
+    padding: 0;
 }
 form > div{
     width: 100px;
@@ -58,29 +73,33 @@ form > div{
     position: relative;
     width: 100%;
     height: 50px;
-    margin: 30px 0;
+    margin: 13px;
+    padding: 0;
 }
 .input-box svg{
-    left: 0px;
+    left: 20px;
     position: absolute;
-    top: 69%;
-    transform: translateY(14%);
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 25px;
+    overlay: none;
 }
 .input-box input{
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 100;
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid var(--border-color);
+    border: 2px solid rgb(146, 44, 44);
     border-radius: 40px;
     font-size: 16px;
-    color: var(--text-color);
+    color: rgb(249, 153, 153);
     padding: 20px 45px 20px 20px;
+    text-align: center;
 }
 .input-box input::placeholder{
     color: var(--text-color) ;
+    text-align:center;
 }
 .register-link p a{
     color:rgb(249, 153, 153);

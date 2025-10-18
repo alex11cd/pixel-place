@@ -36,7 +36,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/pictures/bg.png) no-repeat;
+    background: url(bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -71,7 +71,7 @@ body{
     border-radius: 40px;
     font-size: 16px;
     color: rgb(249, 153, 153);
-    padding: 20px 45px 20px 20px;
+    padding: 20px 45px 20px 20px
 }
 .input-box input::placeholder{
     color: rgb(249, 153, 153);
