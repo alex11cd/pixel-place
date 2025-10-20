@@ -48,5 +48,21 @@
             <p>Already have an account? <a href="login.html">Click here to login</a></p>
         </div>
     </div>
-</body>
+      <script>
+    function password(password_input, repeat_password_input) {
+        if (password_input === repeat_password_input) {
+            console.log("Password correct ✅");
+        } else {
+            console.log("Password does not match ❌");
+        }
+    }
+
+    const password_input = document.getElementById('password-input');
+    const repeat_password_input = document.getElementById('repeat-password-input');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // ✅ stop page refresh
+        password(password_input.value, repeat_password_input.value);
+    });
+  </script>
 </html>

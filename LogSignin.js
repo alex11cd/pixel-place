@@ -25,3 +25,19 @@ function getSignupFormErrors(firstname, email, password, repeatPasssword){
         firstname_input.parentElement.classList.add('incorrect')
     }
 }
+function password(password_input, repeat_password_input) {
+    if (password_input === repeat_password_input) {
+        console.log("Password correct ✅");
+    } else {
+        console.log("Password does not match ❌");
+    }
+}
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // ⛔ stops the form from reloading the page
+    password(password_input.value, repeat_password_input.value);
+});
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // prevents page reload
+    password(password_input.value, repeat_password_input.value);
+});

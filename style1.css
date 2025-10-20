@@ -20,7 +20,7 @@ header{
 body{
     background-size: cover;
     background-position: center;
-    background: url(/pictures/bg.png);
+    background: url(bg.png);
     font-family: "Quicksand", 'sans-serif';
     color: rgb(249, 153, 153);
 }
